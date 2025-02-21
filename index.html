@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Card Token DApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gift Card Token DApp</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <p id="account">Not connected</p>
+
+        <div class="balance-section">
+            <p>Balance: <span id="balance">0</span> Tokens</p>
+        </div>
+
+        <input type="number" id="amount" placeholder="Enter amount to redeem">
+        <button id="redeemToken">Redeem Tokens</button>
+
+        <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
